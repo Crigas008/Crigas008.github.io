@@ -1,9 +1,24 @@
-body {
-    background-color: aliceblue;
-    color: rgb(106, 144, 184);
+footer{
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
 }
-
-h1 {
-    text-align: center;
-    text-decoration: underline;
+body{
+  background-color: black;
 }
+  h1{
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 120px;
+  }
+main{
+  text-align:left;
+  background-color: black;
+  padding: 30px;
+  color: white;
+  font-size: 30px;
+}  
