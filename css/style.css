@@ -22,30 +22,45 @@ section{
   height: 190px;
   background: #4A8923;;
   border-radius: 27px;
+  transition: transform 0.3s, background 0.3s;
+}
+.icon_minecraft:hover{
+  transform: scale(1.1);
+  background: #4A8923;
 }
 .icon_java{
   width: 190px;
   height: 190px;
-  background-color: #CE7434;;
+  background-color: #CE7434;
   border-radius: 27px;
+  transition: transform 0.3s, background 0.3s;
+}
+.icon_java:hover{
+  transform: scale(1.1);
+  background: #CE7434;
 }
 .icon_unity{
   width: 190px;
   height: 190px;
   border-radius: 27px;
   background: #377FC0;
+  transition: transform 0.3s, background 0.3s;
+}
+.icon_unity:hover{
+  transform: scale(1.1);
+  background: #377FC0;
+
 }
 .icon_1{
   width: 190px;
   height: 190px;
   background-color: #BD3232;
-  border-radius: 27px;
-  color: #111112;
-  font-family: Inter;
-  font-size: 150px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;  
+  border-radius: 27px; 
+  transition: transform 0.3s, background 0.3s;
+}
+.icon_1:hover{
+  transform: scale(1.1);
+  background: #BD3232;
 }
 .iconjava{
   width: 161px;
@@ -78,4 +93,24 @@ title1{
   height: 330px;
   color: white;
   font-size: 26px;
+}
+span{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: normal;  
+  position: relative;
+  top: 25px;
+}
+.question{
+  color: #111112;
+  font-family: Inter;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal; 
+  position: relative;
+  top: -2px;
 }
